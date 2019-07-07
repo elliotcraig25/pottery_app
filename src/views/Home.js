@@ -1,32 +1,32 @@
 import React from 'react';
+import './Home.scss';
 
 function Home() {
     return (
         <div>
             <div className='home-top'>
-                <div className='sunny_logo'>
-                    <div>
-                        Sunny Stewert
+                <div className='logo-navbar'>
+                    <div className='sunny_logo'>
+                        <div>
+                            Sunny Stewert
                     </div>
-                </div>
-                <div className='top_home-navbar'>
-                    <nav>
-                        <div>
-                            Pottery
+                    </div>
+                    <div className='top_home-navbar'>
+                        <nav>
+                            <div>
+                                Pottery
                         </div>
-                        <div>
-                            Lifestyle
+                            <div>
+                                Lifestyle
                         </div>
-                        <div>
-                            Bio
+                            <div>
+                                Bio
                         </div>
-                        <div>
-                            Contact
+                            <div>
+                                Contact
                         </div>
-                    </nav>
-                </div>
-                <div className='home-top-carousel'>
-                
+                        </nav>
+                    </div>
                 </div>
             </div>
             <div className='home-mid'>
@@ -45,7 +45,7 @@ function Home() {
             <div className='home-bottom'>
                 <div className='contact'>
                     <p>555 555-5555</p>
-                    <p>sunny_email@email.com</p> 
+                    <p>sunny_email@email.com</p>
                 </div>
             </div>
         </div>

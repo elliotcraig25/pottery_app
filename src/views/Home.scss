@@ -1,0 +1,21 @@
+.home-top {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    
+    .logo-navbar {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 150px;
+
+        .sunny_logo {
+            border: solid blue 1px;
+            width: 100%
+        }
+        .top_home-navbar {
+            border: solid red 1px;
+            width: 100%;
+        }
+    }
+}

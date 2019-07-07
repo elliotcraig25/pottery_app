@@ -4,12 +4,12 @@ function Home() {
     return (
         <div>
             <div className='home-top'>
-                <div>
+                <div className='sunny_logo'>
                     <div>
                         Sunny Stewert
                     </div>
                 </div>
-                <div>
+                <div className='top_home-navbar'>
                     <nav>
                         <div>
                             Pottery
@@ -24,6 +24,9 @@ function Home() {
                             Contact
                         </div>
                     </nav>
+                </div>
+                <div className='home-top-carousel'>
+                
                 </div>
             </div>
             <div className='home-mid'>

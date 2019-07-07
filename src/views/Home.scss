@@ -6,16 +6,126 @@
     .logo-navbar {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         width: 100%;
         height: 150px;
 
         .sunny_logo {
             border: solid blue 1px;
-            width: 100%
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .sunny_logo-one {
+                border: solid red 1px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 450px;
+                height: 100px;
+
+
+                .sunny_logo-two {
+                    border: solid green 1px;
+                    width: 430px;
+                    height: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
         }
         .top_home-navbar {
             border: solid red 1px;
+            width: 40%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
+
+.home-mid {
+    background-color: lightcoral;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .home-mid-block-container {
+        border: solid black 1px;
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .picture_block {
+            width: 30%;
+            border: solid blue 1px;
+
+            .picture_block_text {
+                border: solid red 1px;
+                height: 10%;
+            }
+
+            .picture_block_picture_container {
+                border: solid red 1px;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .picture_block_picture {
+                    border: solid green 1px;
+                    height: 48%;
+                    width: 100%;
+                }
+
+                .picture_block_picture_b {
+                    border: solid green 1px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.home-bottom {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contact_info_container {
+        border: solid tomato 1px;
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .contact_info_title {
+            border: solid black 1px;
+            height: 30%;
             width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact_info {
+            border: solid black 1px;
+            height: 70%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
         }
     }
 }

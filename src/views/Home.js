@@ -7,45 +7,78 @@ function Home() {
             <div className='home-top'>
                 <div className='logo-navbar'>
                     <div className='sunny_logo'>
-                        <div>
-                            Sunny Stewert
-                    </div>
+                        <div className='sunny_logo-one'>
+                            <div className='sunny_logo-two'>
+                                <p>Sunny Stewart</p>
+                            </div>
+                        </div>
                     </div>
                     <div className='top_home-navbar'>
-                        <nav>
-                            <div>
-                                Pottery
+                        <div>
+                            Pottery
                         </div>
-                            <div>
-                                Lifestyle
+                        <div>
+                            Lifestyle
                         </div>
-                            <div>
-                                Bio
+                        <div>
+                            Bio
                         </div>
-                            <div>
-                                Contact
+                        <div>
+                            Contact
                         </div>
-                        </nav>
                     </div>
                 </div>
             </div>
             <div className='home-mid'>
-                <div>
-                    <div className='picture_block-a'>
-
+                <div className='home-mid-block-container'>
+                    <div className='picture_block'>
+                        <div className='picture_block_text'>
+                            <p>View Travel</p>
+                        </div>
+                        <div className='picture_block_picture_container'>
+                            <div className='picture_block_picture'>
+                                picture one
+                            </div>
+                            <div className='picture_block_picture'>
+                                picture two
+                            </div>
+                        </div>
                     </div>
-                    <div className='picture_block-b'>
-
+                    <div className='picture_block'>
+                        <div className='picture_block_text'>
+                            <p>View Pottery</p>
+                        </div>
+                        <div className='picture_block_picture_container'>
+                            <div className='picture_block_picture_b'>
+                                picture one
+                            </div>
+                        </div>
                     </div>
-                    <div className='picture_block-c'>
-
+                    <div className='picture_block'>
+                        <div className='picture_block_text'>
+                            <p>View Recipes</p>
+                        </div>
+                        <div className='picture_block_picture_container'>
+                            <div className='picture_block_picture'>
+                                picture one
+                            </div>
+                            <div className='picture_block_picture'>
+                                picture two
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div className='home-bottom'>
-                <div className='contact'>
-                    <p>555 555-5555</p>
-                    <p>sunny_email@email.com</p>
+                <div className='contact_info_container'>
+                    <div className='contact_info_title'>
+                        <p>Contact Info</p>
+                    </div>
+                    <div className='contact_info'>
+                        <p>555 555-5555</p>
+                        <p>sunny_email@email.com</p>
+                        <p>@sunny_socail_media</p>
+                    </div>
                 </div>
             </div>
         </div>

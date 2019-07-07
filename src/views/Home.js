@@ -42,6 +42,7 @@ function Home() {
             <div className='home-bottom'>
                 <div className='contact'>
                     <p>555 555-5555</p>
+                    <p>sunny_email@email.com</p> 
                 </div>
             </div>
         </div>

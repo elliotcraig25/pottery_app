@@ -78,6 +78,7 @@ function Home() {
                         <p>555 555-5555</p>
                         <p>sunny_email@email.com</p>
                         <p>@sunny_socail_media</p>
+                        <p>@sunny_socail_media_2</p>
                     </div>
                 </div>
             </div>

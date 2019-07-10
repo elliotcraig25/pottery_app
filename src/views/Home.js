@@ -79,6 +79,7 @@ function Home() {
                         <p>sunny_email@email.com</p>
                         <p>@sunny_socail_media</p>
                         <p>@sunny_socail_media_2</p>
+                        <p>@sunny_socail_media_3</p>
                     </div>
                 </div>
             </div>
